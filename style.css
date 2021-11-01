@@ -1,0 +1,52 @@
+    .nav-custom
+    {
+        margin-right: 15px;
+    }
+
+.top-right
+
+{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    color: rgb(0, 0, 0);
+    animation: move-top;
+    animation-duration: 1s;
+    background-image: linear-gradient(to bottom right, #387ade,rgb(163, 48, 48) );    padding: 20px;
+    border-radius:10px;                                 
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px;
+}
+@keyframes move-top {
+    from {top: 10px;}
+    to {top:50px;}
+  }
+
+  .btn-custom:hover {
+        transform: scale(1.3);
+        transition: transform 1s;
+        }
+  
+.back
+{
+    background-image: url('./assets/background-1.jpg');
+}
+.back2
+{
+    background-image: url('./assets/background-2.jpg');
+}
+.modal-body
+{
+    /* background-image: url('./assets/coffee-small.jpg'); */
+}
+
+/* .login-position
+{
+    position: relative;
+    left: 50px;
+    border: 5px solid black;
+} */
+.text-white
+{
+    color: white;
+}

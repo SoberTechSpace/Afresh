@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- fontawesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="./style.css">  
+  </head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark light bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">   <img src="./assets/afreshlogo.jpg"img" width="80" height="70"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item " style= "margin-left: 50rem;">
+                <a class="nav-link active nav-custom" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-custom " data-toggle="modal" data-target="#myModal"href="#">Login</a>
+              </li>
+              <!-- <li class="nav-item dropdown"></li>
+                <a class="nav-link dropdown-toggle nav-custom " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+              <li class="nav-item">
+                <button type="button" class="btn btn-warning nav-custom">Order Now!</button>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="margin-right: 7px;">
+              <button class="btn btn-outline-success " type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+  <!-- Trigger the modal with a button -->
+  
+  <!-- Modal -->
+
+<!-- login modal -->
+
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content" style="width: 40rem;">
+        <div class="modal-header" style="background-image: linear-gradient(45deg,  rgb(122, 182, 231), rgb(163, 48, 48));color: white;" >
+            
+            <h6 class="modal-title">  Login And Registration   </h6>
+        
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body" style="height: 27 rem; background-image: linear-gradient(110deg, rgb(122, 182, 231), rgb(60, 104, 247));" >
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./assets/login-svg.svg" alt="" width="300px;" height="280px"; > 
+            </div>
+              <div class="col-md-6" style="margin-top: 10px; margin-bottom: 20px;">
+              <center class="text-white">
+         <label for="email" class="text-white"> <strong> <h6> Email :- </h6> </strong></label> <br>
+         <input type="email" style="width: 15rem; border: 1px solid black;">  <br> <br>
+       <label for="Password" class="text-white"> <strong> <h6> Password :-</h6> </strong> </label>  <br> 
+          <input type="password" style="width: 15rem; border: 1px solid black;" > <br> <br>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px" class="text-white"> Remember me </label> <br>
+     <button class="btn btn-success">Login</button> <br> <br>
+     <button type="button" class="btn btn-default btn-custom"  data-toggle="modal" data-target="#myModal1"href="#"> New User? <strong> Sign Up!</strong></button>
+    </center>
+          </div>
+        </div>
+        <div class="modal-footer" style="background-image: linear-gradient(110deg,  rgb(80, 176, 255), rgb(163, 48, 48)); ">
+          <button type="button" class="btn btn-default" data-dismiss="modal" style="color: white;">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <!-- Sign-up modal -->
+
+  <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content" style="width: 40rem;">
+        <div class="modal-header" style="background-image: linear-gradient(45deg,  rgb(122, 182, 231), rgb(163, 48, 48));color: white;" >
+            
+            <h6 class="modal-title">  Login And Registration   </h6>
+        
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body" style="height: 27 rem; background-image: linear-gradient(110deg, rgb(122, 182, 231), rgb(60, 104, 247));" >
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./assets/login-svg.svg" alt="" width="300px;" height="280px"; > 
+            </div>
+              <div class="col-md-6" style="margin-top: 10px; margin-bottom: 20px;">
+              <center class="text-white">
+                <label for="email" class="text-white"> <strong> <h6> Name:- </h6> </strong></label> <br>
+                <input type="email" style="width: 15rem; border: 1px solid black;">  <br> <br>
+         <label for="email" class="text-white"> <strong> <h6> Email :- </h6> </strong></label> <br>
+         <input type="email" style="width: 15rem; border: 1px solid black;">  <br> <br>
+         <label for="Password" class="text-white"> <strong> <h6> Mobile number :-</h6> </strong> </label>  <br> 
+         <input type="password" style="width: 15rem; border: 1px solid black;" > <br> <br> 
+       <label for="Password" class="text-white"> <strong> <h6> Password :-</h6> </strong> </label>  <br> 
+          <input type="password" style="width: 15rem; border: 1px solid black;" > <br> <br>
+          <label for="Password" class="text-white"> <strong> <h6> confirm Password :-</h6> </strong> </label>  <br> 
+          <input type="password" style="width: 15rem; border: 1px solid black;" > <br> <br>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px" class="text-white"> Remember me </label> <br>
+     <button class="btn btn-success">Sign Up!</button> <br> <br>
+              <span> Already User? <a href="" style="color: rgb(85, 5, 72);" data-toggle="modal" data-target="#myModal1"href="#" > <strong>Login </strong> </a>  here.</span>
+    </center>
+          </div>
+        </div>
+        <div class="modal-footer" style="background-image: linear-gradient(110deg,  rgb(80, 176, 255), rgb(163, 48, 48)); ">
+          <button type="button" class="btn btn-default" data-dismiss="modal" style="color: white;">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+<div class="row">
+  <div class="col-md-12">
+    <img src="./assets/larger.jpg"  alt="Girl in a jacket" style="width:1520px;height:600px;">
+    <div class="container">
+      <div class="top-right">
+        <h4>Hey Pratik</h4><br>
+        <h5>Welcome we are afresh we are commited to <br> make your taste buds happy every time!</h5> <br>
+      <button type="button" class="btn btn-success btn-custom" data-toggle="modal" data-target="#myModal"href="#"><strong>Login!</strong></button> 
+     <button type="button" class="btn btn-success btn-custom"  data-toggle="modal" data-target="#myModal1"href="#"> <strong> Sign Up!</strong></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="back">
+<div class="container" style="margin-top: 30px;" >
+  <div class="row">
+    <div class="col-md-4">
+      <center>
+        <table>
+          <tr>
+            <td>
+              <img src="./assets/instant-coffee-remix.jpg" alt="" width="300px" height="350px">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h6>Instant Coffee Remix</h6>
+              <strong>₹ 299</strong> <strike>₹ 400</strike>
+              <div class="d-flex flex-row-reverse"> 
+                <span class="btn btn-dark" style="margin-left: 25px;">ADD TO CART</span>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </center>
+    </div>
+    <div class="col-md-4">
+      <center>
+        <table>
+          <tr>
+            <td>
+              <img src="./assets/instant-white-malt.jpg" alt="Chocolate-coffe-limit" width="300px" height="350px">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h6>Instant White Malt</h6>
+              <strong>  ₹ 199</strong>  <strike>₹ 250</strike>
+              <div class="d-flex flex-row-reverse"> 
+                <span class="btn btn-dark" style="margin-left: 25px;">ADD TO CART</span>
+              </div>  
+          </td>
+          </tr>
+        </table>
+      </center>
+    </div>
+    <div class="col-md-4">
+      <center>
+        <table>
+          <tr>
+            <td>
+              <img src="./assets/Chocolate-coffe-limit.jpg" alt="Chocolate-coffe-limit" width="300px" height="350px">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h6>Chocolate Coffee limit</h6>
+             <strong>₹ 195</strong><strike> ₹ 300</strike>
+             <div class="d-flex flex-row-reverse"> 
+              <span class="btn btn-dark" style="margin-left: 25px;">ADD TO CART</span>
+            </div>
+            </td>
+          </tr>
+        </table>
+      </center>
+    </div>
+  </div>
+  </div>
+  
+</div>
+
+<div class=" back2" >
+<div class="container"> <!--  style="margin-top:50px;"> -->
+  <div class="row">
+    <div class="col-md-4">
+      <center>
+        <table>
+          <tr>
+            <td>
+              <img src="./assets/Tea-premix-masala.jpg" alt="" width="300px" height="350px">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h6>Instant Coffee Remix</h6>
+              <strong>  ₹ 299</strong> <strike>₹ 400</strike>
+              <div class="d-flex flex-row-reverse"> 
+                <span class="btn btn-dark" style="margin-left: 25px;">ADD TO CART</span>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </center>
+    </div>
+    <div class="col-md-4">
+      <center>
+        <table>
+          <tr>
+            <td>
+              <img src="./assets/Tea-Premix.jpg" alt="Chocolate-coffe-limit" width="300px" height="350px">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h6>Instant White Malt</h6>
+              <strong>  ₹ 199</strong>  <strike>₹ 250</strike>
+              <div class="d-flex flex-row-reverse"> 
+                <span class="btn btn-dark" style="margin-left: 25px;">ADD TO CART</span>
+              </div>  
+          </td>
+          </tr>
+        </table>
+      </center>
+    </div>
+    <div class="col-md-4">
+      <center>
+        <table>
+          <tr>
+            <td>
+              <img src="./assets/Tea-remix.jpg" alt="Chocolate-coffe-limit" width="300px" height="350px">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h6>Chocolate Coffee limit</h6>
+             <strong>₹ 195</strong><strike> ₹ 300</strike>
+             <div class="d-flex flex-row-reverse"> 
+              <span class="btn btn-dark" style="margin-left: 25px;">ADD TO CART</span>
+            </div>
+            </td>
+          </tr>
+        </table>
+      </center>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+  
+
+<div class="container-fluid bottom-right">
+  <div class="row">
+    <div style="padding: 20px;" class="col-md-3">
+      <ul class="list-group"></ul>
+      
+      </li>
+      <li class="list-group-item bottom-right text">Login/Register</li>
+      <li class="list-group-item bottom-right text">Manage Account</li>
+      <li class="list-group-item bottom-right text">My Cart</li>
+      <li class="list-group-item bottom-right text">Shipping</li>
+      <li class="list-group-item bottom-right text">Returns</li>
+    </div>
+    <div style="padding: 20px;" class="col-md-3">
+      <ul class="list-group"></ul>
+      
+      </li>
+      <li class="list-group-item bottom-right text">Terms And Conditions</li>
+      <li class="list-group-item bottom-right text">Privacy Policy</li>
+      <li class="list-group-item bottom-right text">Contact Us</li>
+      <li class="list-group-item bottom-right text">About Us</li>
+      <li class="list-group-item bottom-right text">FAQs</li>
+    </div>
+
+    <div style="; padding: 20px;" class="col-md-3 text">
+      <div style="color:#343a40!important">
+        <div class="d-flex justify-content-center">
+        <h5 style="padding-bottom: 3rem;  text-decoration: underline;"> Why Shop With Us?</h5>
+        </div>
+        
+        <div class="d-flex justify-content-center">
+          <h6>Chai & coffee lovers, love us ❤️</h6>
+        </div>
+          
+        <div class="d-flex justify-content-center">
+          <h6>Secure Payments</h>&nbsp;
+            <i class="fa fa-1x fa-credit-card"></i>
+        </div>
+        
+        <div class="d-flex justify-content-center">
+          <h6 style="padding-bottom:30px ;">
+            100% Customer Support</h6>  &nbsp;  &nbsp;<i class="fa fa-1x fa-phone-square"></i>
+        </div>
+        </div>
+      </div>
+
+        <div style="; padding: 20px;" class="col-md-3">
+          <div class="d-flex justify-content-center">
+            <h5 style="padding-bottom: 3rem;  text-decoration: underline;">Connect With Us</h5>
+          </div>
+          <div class="d-flex justify-content-center" style="padding-bottom: 5px;">
+            <h6> Intagram</h6>&nbsp&nbsp&nbsp
+            <i class="fa fa-2x fa-instagram" style="color: rgb(170, 36, 36);"  ></i>
+          </div>  
+          <div class="d-flex justify-content-center" style="padding-bottom: 5px;">
+            <h6> Facebook</h6>&nbsp&nbsp&nbsp
+            <i class="fa fa-2x fa-facebook" style="color: rgb(2, 56, 231);"></i>
+          </div>
+          <div class="d-flex justify-content-center" style="padding-bottom: 25px;" >
+            <h6> Twitter</h6> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <i class="fa fa-2x fa-twitter" style="color: rgb(3, 150, 235);"></i>
+          </div>
+          <div class="d-flex justify-content-center" style="padding-bottom: 5px; ">
+            <h6> Email </h6> </div>
+
+            <div class="d-flex justify-content-center" style="padding-bottom: 5px;">
+              <h6> customercare@afresh.com </h6> </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="d-flex justify-content-center">
+    <h6>Subscribe To Our News Letter</h6> 
+  </div>
+  <center>
+            <div class="d-flex justify-content-center">
+      <i class="fa fa-2x fa-envelope"></i>
+    </div>
+  <input type="text" placeholder="Email"  style="margin: 10px;">  <br> 
+<button class="btn btn-success"  style="margin-top: 5px;"> Submit</button>
+
+  </center>
+
+
+
+  <div class="d-flex justify-content-center">
+    <h6 style="margin: 20px;">All Rights Reserved. ©</h6>
+  </div>
+       
+</body>
+</html>
